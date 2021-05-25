@@ -8,7 +8,7 @@ api_package_id = sys.argv[5]
 infra_prod_id = sys.argv[6]
 
 import time
-time.sleep(20)
+time.sleep(40)
 
 client = dataikuapi.DSSClient(host, apiKey)
 
